@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Contato.php" method="post">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome"/>
+            <br>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email"/>
+            <br>
+            
+            <select name="selecao">
+                <option value="Vendas">Vendas</option>
+                <option value="Suporte">Suporte</option>
+            </select>
+            
+            <br>
+            <textarea name="mensagem"  cols="40" rows="10"></textarea><br>
+            <input type="submit" value="Enviar"/> 
+            
+            
+        </form>
+    </body>
+</html>
