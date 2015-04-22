@@ -1,4 +1,4 @@
-<?php if(!empty($_POST['nome'])){
+<?php if(!empty($_POST['nome']) && !empty(['email']) && !empty(['selecao']) && !empty(['mensagem'])){
         $mensagem  = '';
         $mensagem .= 'Obrigado por entrar em contato conosco!<br>';
         $mensagem .= $_POST['nome'] . '<br>';
